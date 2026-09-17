@@ -1,6 +1,4 @@
-/* ================================
-   BASIC RESET
-================================ */
+
 
 * {
     margin: 0;
@@ -31,10 +29,6 @@ textarea {
     font-family: inherit;
 }
 
-
-/* ================================
-   BACKGROUND
-================================ */
 
 .background {
     position: fixed;
@@ -99,10 +93,6 @@ textarea {
     }
 }
 
-
-/* ================================
-   NAVBAR
-================================ */
 
 .navbar {
     width: 100%;
@@ -178,10 +168,6 @@ textarea {
     cursor: pointer;
 }
 
-
-/* ================================
-   HERO
-================================ */
 
 .hero {
     min-height: 100vh;
@@ -330,10 +316,6 @@ textarea {
     transform: translateY(-4px);
 }
 
-
-/* ================================
-   HERO VISUAL
-================================ */
 
 .hero-visual {
     width: 430px;
@@ -502,10 +484,6 @@ textarea {
 }
 
 
-/* ================================
-   GENERAL SECTIONS
-================================ */
-
 .section {
     width: 100%;
     padding: 120px 8%;
@@ -540,21 +518,12 @@ textarea {
 }
 
 
-/* ================================
-   GLASS
-================================ */
-
 .glass {
     background: rgba(255,255,255,0.045);
     border: 1px solid rgba(255,255,255,0.1);
     backdrop-filter: blur(15px);
     box-shadow: 0 20px 60px rgba(0,0,0,0.2);
 }
-
-
-/* ================================
-   ABOUT
-================================ */
 
 .about-container {
     max-width: 1100px;
@@ -631,11 +600,6 @@ textarea {
     color: #858599;
     font-size: 12px;
 }
-
-
-/* ================================
-   SKILLS
-================================ */
 
 .skills-grid {
     max-width: 1100px;
@@ -723,11 +687,6 @@ textarea {
     font-size: 10px;
 }
 
-
-/* ================================
-   PROJECTS
-================================ */
-
 .projects-grid {
     max-width: 1100px;
     margin: auto;
@@ -814,11 +773,6 @@ textarea {
     opacity: 0.8;
 }
 
-
-/* ================================
-   HOBBIES
-================================ */
-
 .hobbies-grid {
     max-width: 1000px;
     margin: auto;
@@ -869,10 +823,6 @@ textarea {
     font-size: 12px;
 }
 
-
-/* ================================
-   CONTACT
-================================ */
 
 .contact-container {
     max-width: 1050px;
@@ -1008,10 +958,6 @@ textarea {
 }
 
 
-/* ================================
-   FOOTER
-================================ */
-
 footer {
     text-align: center;
     padding: 50px 20px;
@@ -1041,10 +987,6 @@ footer > p {
     font-size: 10px;
 }
 
-
-/* ================================
-   TOAST
-================================ */
 
 .toast {
     position: fixed;
@@ -1076,11 +1018,6 @@ footer > p {
 .toast i {
     color: #00e09b;
 }
-
-
-/* ================================
-   RESPONSIVE DESIGN
-================================ */
 
 @media (max-width: 1000px) {
 
