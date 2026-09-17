@@ -1,6 +1,4 @@
-/* =================================
-   MOBILE MENU
-================================= */
+
 
 const menuBtn = document.getElementById("menuBtn");
 const navMenu = document.getElementById("navMenu");
@@ -22,10 +20,6 @@ menuBtn.addEventListener("click", () => {
 });
 
 
-/* =================================
-   CLOSE MOBILE MENU
-================================= */
-
 document.querySelectorAll(".navbar nav a").forEach(link => {
 
     link.addEventListener("click", () => {
@@ -42,9 +36,6 @@ document.querySelectorAll(".navbar nav a").forEach(link => {
 });
 
 
-/* =================================
-   ACTIVE NAVIGATION
-================================= */
 
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".navbar nav a");
@@ -80,10 +71,6 @@ window.addEventListener("scroll", () => {
 });
 
 
-/* =================================
-   CONTACT FORM
-================================= */
-
 const contactForm = document.getElementById("contactForm");
 
 contactForm.addEventListener("submit", function(event) {
@@ -108,10 +95,6 @@ contactForm.addEventListener("submit", function(event) {
 });
 
 
-/* =================================
-   TOAST MESSAGE
-================================= */
-
 function showToast(message) {
 
     const toast = document.getElementById("toast");
@@ -129,11 +112,6 @@ function showToast(message) {
 
 }
 
-
-/* =================================
-   PROJECT BUTTON
-================================= */
-
 function showProject(projectName) {
 
     if (projectName === "Future Project") {
@@ -148,10 +126,6 @@ function showProject(projectName) {
 
 }
 
-
-/* =================================
-   REVEAL ANIMATION
-================================= */
 
 const revealElements = document.querySelectorAll(
     ".glass, .section-heading"
@@ -194,10 +168,6 @@ revealElements.forEach(element => {
 
 });
 
-
-/* =================================
-   DYNAMIC YEAR
-================================= */
 
 const copyright = document.querySelector(".copyright");
 
